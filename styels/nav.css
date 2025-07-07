@@ -1,0 +1,26 @@
+header{
+    text-align: center;
+}
+nav {
+    background-color: rgb(209, 93, 11);
+    padding: 10px;
+    border-radius: 5px;
+    color: brown;
+}nav ul{
+    display: flex;
+    gap: 20px;
+}
+nav li{
+    list-style: none;
+    margin-right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    color:black ;
+}
+nav a{
+    text-decoration: none;
+}
+nav li:hover {
+    background-color: yellow;
+    color: black;
+}

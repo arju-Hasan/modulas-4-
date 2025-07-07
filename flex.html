@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        .contaner {
+            display: flex;
+        }
+
+        .contaner div {
+            border: 2px solid black;
+            height: 60px;
+            width: 80px;
+            font-size: 3em;
+            margin: 5px;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .box-contaner {
+            display: flex;
+            gap: 5px;
+            text-align: center;
+        }
+
+        .box {
+            font-size: 3em;
+            margin: 5px;
+            padding: 15px;
+            height: 100px;
+            width: 100px;
+            border: 2px solid rgb(218, 125, 3);
+        }
+
+        .user-contaner {
+            display: flex;
+            gap: 5px;
+            justify-content: center;
+        }
+
+        .user {
+            font-size: 2.5em;
+            height: 100px;
+            width: 120px;
+            border: 3px solid green;
+            background-color: brown;
+            margin-top: 8px;
+            padding-top: 30px;
+            text-align: center;
+        }
+
+        .card-contaner {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="styels/nav.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul id="nav-bar">
+                <li class="1"><a href="blogs.html">Home</a></li>
+                <li><a href="auto.html">Auto</a></li>
+                <li><a href="center.html">Center</a></li>
+                <li><a href="flex.html">Flax</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="video.html">Video</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contaner">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+    </div>
+    <div class="box-contaner">
+        <!-- .box{$}*8 -->
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+
+    </div>
+    <div class="user-contaner">
+        <!-- .user{user $}*5 -->
+        <div class="user">user 1</div>
+        <div class="user">user 2</div>
+        <div class="user">user 3</div>
+        <div class="user">user 4</div>
+        <div class="user">user 5</div>
+    </div>
+    <div class="card-contaner">
+        <!-- .user{card $}*16 -->
+        <div class="user">card 1</div>
+        <div class="user">card 2</div>
+        <div class="user">card 3</div>
+        <div class="user">card 4</div>
+        <div class="user">card 5</div>
+        <div class="user">card 6</div>
+        <div class="user">card 7</div>
+        <div class="user">card 8</div>
+        <div class="user">card 9</div>
+        <div class="user">card 10</div>
+        <div class="user">card 11</div>
+        <div class="user">card 12</div>
+        <div class="user">card 13</div>
+        <div class="user">card 14</div>
+        <div class="user">card 15</div>
+        <div class="user">card 16</div>
+    </div>
+</body>
+
+</html>
